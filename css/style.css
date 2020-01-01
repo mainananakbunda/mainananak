@@ -2381,15 +2381,21 @@ ul {
     color: #2f7dfc !important;
   }
   /* line 235, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_menu.scss */
-  .navbar-brand img {
+  .navbar-brand img{
     max-width: 100px;
     margin: 0 auto;
     position: absolute;
     left: 0;
     right: 0;
-    display: inline-block;
     top: 0;
+	display: inline-block;
   }
+  
+  .navbar-brand{
+   height:25px;
+   margin:0px 0px;
+  }
+  
   /* line 245, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_menu.scss */
   .navbar-light .navbar-toggler {
     border-color: transparent;
